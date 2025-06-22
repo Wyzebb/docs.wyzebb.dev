@@ -1,0 +1,41 @@
+# config.yml
+
+- You can use this generator to generate colours of the messages and (!) message prefixes, which you can change below https://minecraft.wiki/w/Calculators/Formatting_code_editor
+
+```yaml
+language: en_US
+
+colour: "§e§l(!) §e"
+error-colour: "§c§l(!) §c"
+success-colour: "§a§l(!) §a"
+
+# Default view distance for anyone who joins the server (Must be between 2 and 32)
+default-distance: 32
+bedrock-default-distance: 32
+
+# Maximum view distance for anyone (Cannot exceed 32)
+max-distance: 32
+
+# Minimum view distance for anyone (Cannot be less than 2)
+min-distance: 2
+
+# Display a message when a player joins telling them what their view distance is set to
+display-msg-on-join: true
+
+# Display a message when a player joins telling them what their view distance is set to, when it is the default or maximum
+display-max-join-msg: false
+
+# If chunks loaded will be limited for AFK players
+afk-chunk-limiter: true
+
+# After how many seconds the plugin will consider a player AFK
+afkTime: 20
+
+# The view distance of an AFK player
+afkChunks: 2
+
+# Whether players in spectator mode bypass AFK checks
+spectators-can-afk: true
+
+update-checker-enabled: true
+```
