@@ -1,6 +1,6 @@
 {
     "label": "Migrating Versions",
-    "position": 2,
+    "position": 9,
     "link": {
         "type": "generated-index",
         "description": "Select your version below for a guide on upgrading to the latest version of the plugin. Lower versions of the plugin, particularly v1.x.x are unstable and you should upgrade!"
