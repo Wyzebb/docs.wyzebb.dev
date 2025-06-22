@@ -1,5 +1,12 @@
 # Language System
 
+- PVDC supports multiple languages and can easily be switched between them.
+- There is a `/lang` folder in the pvdc config folder containing the three default languages, `English`, `Russian` and `Chinese`.
+- The language in use can be changed in **[config.yml](./config.yml.md)**
+- The default is en_US.
+- You can change any messages you want!
+- You can create your own language files using the English keys and then custom values. Then, simply enter the name of the file in **[config.yml](./config.yml.md)** and that's it! Most messages are translateable! You can also make a **[pull request](https://github.com/Wyzebb/PlayerViewDistanceController/pulls) to include the language in the plugin in future updates.
+
 <details>
 <summary>en_US.yml</summary>
 
