@@ -1,0 +1,23 @@
+# Ping Mode
+
+- Default config file for ping mode (ping-mode.yml)
+
+```yaml
+enabled: false
+
+# Min and max view distances when using ping optimiser (must be within the global boundaries defined in config.yml)
+min: 2
+max: 32
+
+interval: 200  # (ticks)
+
+# Ping is checked every interval for players with the mode active and view distance is optimised as follows:
+# Players have their view distance reduced by the chunks specified from their max allowed view distance
+
+# Format:
+# {PING}: {CHUNKS}
+
+pings:
+  150: 1
+  300: 2
+```

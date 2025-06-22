@@ -1,0 +1,25 @@
+# Dynamic Mode
+
+- Default config file for dynamic mode (dynamic-mode.yml)
+
+```yaml
+enabled: false
+
+# Min and max view distances when using dynamic mode (must be within the global boundaries defined in config.yml)
+min: 2
+max: 32
+
+interval: 200  # (ticks)
+
+# MSPT is checked every interval and view distance is optimised as follows:
+# All players have their view distance reduced by the chunks specified from their max allowed view distance
+# Permission node 'pvdc.dynamic-mode-bypass' bypasses this.
+
+# Format:
+# {MSPT}: {CHUNKS}
+
+mspt:
+  55: 1
+  65: 3
+  75: 5
+```
