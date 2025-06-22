@@ -70,8 +70,11 @@ const config: Config = {
     ],
 
     themeConfig: {
-        // Replace with your project's social card
-        image: 'img/docusaurus-social-card.jpg',
+        colorMode: {
+            defaultMode: 'dark',
+            disableSwitch: false,
+            respectPrefersColorScheme: true,
+        },
         navbar: {
             title: 'Wyzebb',
             logo: {
@@ -107,7 +110,7 @@ const config: Config = {
                     items: [
                         {
                             label: 'PVDC',
-                            to: '/docs/pvdc/intro',
+                            to: '/docs/pvdc/overview',
                         },
                     ],
                 },
