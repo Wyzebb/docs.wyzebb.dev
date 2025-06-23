@@ -13,12 +13,8 @@ This plugin only works on PaperMC and its forks!
 3) Start your server and the plugin is now usable!
 4) Learn how to use the plugin and customise the config files in **[configuration](../config/config.yml.md)**
 
-### Plugin download sources
-
-:::caution
-Due to CurseForge moderation, updates will appear later on CurseForge!
-::: 
+## Plugin download sources
 
 - https://modrinth.com/plugin/pvdc
-- https://www.curseforge.com/minecraft/bukkit-plugins/pvdc
+- https://www.curseforge.com/minecraft/bukkit-plugins/pvdc  (Due to CurseForge moderation, updates appear later on CurseForge!)
 - https://hangar.papermc.io/Wyzebb/PlayerViewDistanceController
