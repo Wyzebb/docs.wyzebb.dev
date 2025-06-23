@@ -1,7 +1,23 @@
 # Dynamic Mode
 
-- Default config file for dynamic mode (dynamic-mode.yml)
+:::tip
+Dynamic mode is new to PVDC. Feedback would be greatly appreciated!
+:::
 
+## What is dynamic mode?
+
+- Dynamic mode is a server-wide mode that optimises view distance of all players (except those who bypass with `pvdc.dynamic-mode-bypass`).
+- It does it based on server MSPT and you can define the MSPT thresholds and how much view distances are reduced by in the config file `dynamic-mode.yml`.
+- The chunks are **reduced by** and not **set to** specific amounts so the ratio of view distance permissions and chunks set by other players is respected.
+
+## When can it be used?
+
+- Dynamic mode can be used with or without **[ping mode](./ping.md)**.
+- It is recommended that you use it and is only not enabled by default to avoid confusion for new users.
+
+## Default config file for dynamic mode
+
+`dynamic-mode.yml`
 ```yaml
 enabled: false
 
