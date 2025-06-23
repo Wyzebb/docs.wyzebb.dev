@@ -1,5 +1,9 @@
 # Ping Mode
 
+:::tip
+Ping mode is new to PVDC. Feedback would be greatly appreciated!
+:::
+
 - Default config file for ping mode (ping-mode.yml)
 
 ```yaml
