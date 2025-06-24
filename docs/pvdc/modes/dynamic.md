@@ -1,6 +1,6 @@
 # Dynamic Mode
 
-:::tip
+:::tip[New Feature]
 Dynamic mode is new to PVDC. Feedback would be greatly appreciated!
 :::
 
