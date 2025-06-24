@@ -1,4 +1,8 @@
-# Language System
+# Messages and Languages
+
+:::danger[Page under construction]
+This page may be incomplete and incorrect!
+:::
 
 - PVDC supports multiple languages and can easily be switched between them.
 - There is a `/lang` folder in the pvdc config folder containing the three default languages, `English`, `Russian` and `Chinese`.

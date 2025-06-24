@@ -4,6 +4,14 @@ sidebar_position: 3
 
 # Commands
 
+:::danger[Page under construction]
+This page may be incomplete and incorrect!
+:::
+
+:::info
+Some commands now support offline players and autocomplete reflects this!
+:::
+
 ## Base Command: `/pvdc`
 - **Aliases:** `vd`, `viewdistance`
 ### Subcommands

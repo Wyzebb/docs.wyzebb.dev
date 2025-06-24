@@ -1,8 +1,12 @@
-# config.yml
+# Main Config
+
+:::danger[Page under construction]
+This page may be incomplete and incorrect!
+:::
 
 - You can use this generator to generate colours of the messages and (!) message prefixes, which you can change below https://minecraft.wiki/w/Calculators/Formatting_code_editor
 
-```yaml
+```yaml title="/plugins/PlayerViewDistanceController/config.yml"
 language: en_US
 
 colour: "§e§l(!) §e"

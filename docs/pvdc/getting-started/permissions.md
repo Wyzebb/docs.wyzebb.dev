@@ -4,6 +4,10 @@ sidebar_position: 4
 
 # Permissions
 
+:::danger[Page under construction]
+This page may be incomplete and incorrect!
+:::
+
 ## **Permissions**
 - Set your own max view distance: `pvdc.set-self`
 - Set the max view distance of other players: `pvdc.set-others`

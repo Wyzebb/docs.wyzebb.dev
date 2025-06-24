@@ -1,5 +1,9 @@
 # AFK System
 
+:::danger[Page under construction]
+This page may be incomplete and incorrect!
+:::
+
 ## **AFK System**
 - If a player goes AFK, after a certain amount of time, their view distance will be restricted to stop AFK players making the server lag.
 - Restriction distance and the time it takes to consider a player AFK are customisable.
