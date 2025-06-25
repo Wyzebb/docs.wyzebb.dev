@@ -3,6 +3,6 @@
     "position": 8,
     "link": {
         "type": "generated-index",
-        "description": "Plugin Hooks"
+        "description": "Plugins PVDC hooks into"
     }
 }

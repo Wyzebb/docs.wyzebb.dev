@@ -1,14 +1,39 @@
 # AFK System
 
-:::danger[Page under construction]
-This page may be incomplete and incorrect!
+:::tip[New Feature]
+The afkOnJoin option is a new feature
 :::
 
-## **AFK System**
-- If a player goes AFK, after a certain amount of time, their view distance will be restricted to stop AFK players making the server lag.
-- Restriction distance and the time it takes to consider a player AFK are customisable.
-- There is a bypass permission to stop your view distance being restricted when AFK.
-- Spectator mode players can bypass AFK by default
-- All of the above is customisable in config.yml.
+PVDC has its own AFK detection system.
 
-afkOnJoin
+### How to Use
+- After an amount of time (defined in **[config.yml](./config/config.yml.md)**), a player will be considered AFK and their view distance will be restricted.
+- Restriction view distance and the time taken for a player considered to be AFK are configurable.
+- The bypass permission `pvdc.bypass-afk` can be used to stop a player's view distance being restricted when AFK.
+- Players in spectator mode can bypass AFK checks (configurable)
+
+- `afkOnJoin` sets players to AFK immediately when they join until they first move.
+
+### Use Cases
+- This stop AFK players loading more chunk and entity data than they need and making the server lag.
+- This could also be used to combat automatic farm AFKing.
+- The `afkOnJoin` option could even be used to combat bots.
+
+### AFK Config Default Options
+
+```yaml title="/plugins/PlayerViewDistanceController/config.yml"
+# If chunks loaded will be limited for AFK players
+afk-chunk-limiter: true
+
+# Whether players should be set to the afk limit on join until they first move
+afkOnJoin: false
+
+# After how many seconds a player will be considered AFK
+afkTime: 60
+
+# The view distance of an AFK player
+afkChunks: 2
+
+# Whether players in spectator mode bypass AFK checks
+spectators-can-afk: true
+```
