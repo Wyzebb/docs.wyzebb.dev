@@ -4,11 +4,11 @@ sidebar_position: 1
 
 # How to Use
 
-:::danger[Page under construction]
-This page may be incomplete and incorrect!
+:::info[Plugin may be confusing]
+This plugin is highly customisable and this can make it a little confusing sometimes
 :::
 
-- This plugin is very complicated due to the customisability. These docs aim to break it down simply.
+- These docs aim to break down exactly how to use the plugin and all of its customisations.
 
 - The docs ONLY apply to the latest version! Migration guides can be found **[here](../migrating/_category_.json)**. If there is no guide for upgrading your version, it is compatible!
 

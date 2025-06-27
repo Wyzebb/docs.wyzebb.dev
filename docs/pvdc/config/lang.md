@@ -1,20 +1,19 @@
 # Messages and Languages
 
-:::danger[Page under construction]
-This page may be incomplete and incorrect!
-:::
 
-- PVDC supports multiple languages and can easily be switched between them.
+## Language System
+- PVDC supports multiple languages and can easily be switched between them. The default is en_US.
 - There is a `/lang` folder in the pvdc config folder containing the three default languages, `English`, `Russian` and `Chinese`.
-- The language in use can be changed in **[config.yml](./config.yml.md)**
-- The default is en_US.
-- You can change any messages you want!
-- You can create your own language files using the English keys and then custom values. Then, simply enter the name of the file in **[config.yml](./config.yml.md)** and that's it! Most messages are translateable! You can also make a **[pull request](https://github.com/Wyzebb/PlayerViewDistanceController/pulls) to include the language in the plugin in future updates.
+- The language in use can be changed on line 1 in **[config.yml](./config.yml.md)**.
+- You can customise almost all messages from the plugin!
+- I cannot translate the messages due to software laws, so only those fluent can translate them. Due to this, any new messages in updates will be in English, even in Russian and Chinese files, until a pull request is made to fix them.
 
-<details>
-<summary>en_US.yml</summary>
+## Creating your own Language File
+- You can easily create your own language files using the English keys and then custom values. Put this file in the `/lang` folder and set your language to be used in **[config.yml](./config.yml.md)**.
+- It would be great if you made a **[pull request](https://github.com/Wyzebb/PlayerViewDistanceController/pulls) so the language can be included in future updates. Thanks!
 
-```yaml
+## Default en_US
+```yaml title="/PlayerViewDistanceController/lang/en_US.yml"
 messages:
   join: "Your maximum view distance is currently set to {chunks} chunks"
 
@@ -56,4 +55,3 @@ commands:
   set: "Set your own max view distance or the max view distance of another player"
   setonline: "Sets the max view distance of all online players"
 ```
-</details>

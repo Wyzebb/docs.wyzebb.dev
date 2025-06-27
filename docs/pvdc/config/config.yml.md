@@ -1,14 +1,11 @@
 # Main Config
 
-:::danger[Page under construction]
-This page may be incomplete and incorrect!
-:::
+Formatting codes: https://minecraft.wiki/w/Calculators/Formatting_code_editor
 
-- You can use this generator to generate colours of the messages and (!) message prefixes, which you can change below https://minecraft.wiki/w/Calculators/Formatting_code_editor
+```yaml title="/PlayerViewDistanceController/config.yml"
+language: "en_US"
 
-```yaml title="/plugins/PlayerViewDistanceController/config.yml"
-language: en_US
-
+# These are prefixes added to the start of every PVDC message
 colour: "§e§l(!) §e"
 error-colour: "§c§l(!) §c"
 success-colour: "§a§l(!) §a"
@@ -32,8 +29,11 @@ display-max-join-msg: false
 # If chunks loaded will be limited for AFK players
 afk-chunk-limiter: true
 
-# After how many seconds the plugin will consider a player AFK
-afkTime: 20
+# Whether players should be set to the afk limit on join until they first move
+afkOnJoin: false
+
+# After how many seconds a player will be considered AFK
+afkTime: 60
 
 # The view distance of an AFK player
 afkChunks: 2
