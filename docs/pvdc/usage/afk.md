@@ -4,8 +4,6 @@
 The afkOnJoin option is a new feature
 :::
 
-PVDC has its own AFK detection system.
-
 ### How to Use
 - After an amount of time (defined in **[config.yml](./config/config.yml.md)**), a player will be considered AFK and their view distance will be restricted.
 - Restriction view distance and the time taken for a player considered to be AFK are configurable.
@@ -21,7 +19,7 @@ PVDC has its own AFK detection system.
 
 ### AFK Config Default Options
 
-```yaml title="/plugins/PlayerViewDistanceController/config.yml"
+```yaml title="/PlayerViewDistanceController/config.yml"
 # If chunks loaded will be limited for AFK players
 afk-chunk-limiter: true
 
