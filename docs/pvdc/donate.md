@@ -1,10 +1,12 @@
 ---
-sidebar_position: 3
+sidebar_position: 999
 ---
 
-# Sponsoring/ Donating
+# Support PVDC
 
 If you like this plugin, you can support me by **[sponsoring me on GitHub Sponsors](https://github.com/sponsors/Wyzebb)**. You can also **[donate on Ko-Fi](https://ko-fi.com/wyzebb)**.
+
+You can also support the plugin through feedback and engaging with the community. **[Join our Discord server](https://discord.gg/akbd8EPSgr)**!
 
 I really appreciate any support you can give as it supports the growth of my plugins and allows me to do more cool things!
 
