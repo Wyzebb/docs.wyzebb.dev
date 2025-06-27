@@ -12,4 +12,4 @@ This plugin is highly customisable and this can make it a little confusing somet
 
 - The docs ONLY apply to the latest version! Migration guides can be found **[here](../migrating/_category_.json)**. If there is no guide for upgrading your version, it is compatible!
 
-- Feel free to join the Discord server at any time for help, to report bugs or to give suggestions!
+- Feel free to join the **[Discord server](https://discord.gg/akbd8EPSgr)** at any time for help, to report bugs or to give suggestions!
