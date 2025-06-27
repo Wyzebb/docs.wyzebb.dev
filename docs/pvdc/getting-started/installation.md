@@ -15,6 +15,6 @@ This plugin only works on PaperMC and its forks!
 
 ## Plugin Download Sources
 
-- https://modrinth.com/plugin/pvdc
-- https://www.curseforge.com/minecraft/bukkit-plugins/pvdc
-- https://hangar.papermc.io/Wyzebb/PlayerViewDistanceController
+<a style={{paddingRight: 0.5 + 'em'}} href="https://modrinth.com/plugin/pvdc"><img alt="modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg" /></a>
+<a style={{paddingRight: 0.5 + 'em'}} href="https://www.curseforge.com/minecraft/bukkit-plugins/pvdc"><img alt="curseforge" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_vector.svg" /></a>
+<a style={{paddingRight: 0.5 + 'em'}} href="https://hangar.papermc.io/Wyzebb/PlayerViewDistanceController"><img alt="hangar" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/hangar_vector.svg" /></a>
