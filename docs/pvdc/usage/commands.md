@@ -35,4 +35,4 @@ Some commands now support offline players and autocomplete reflects this!
 #### - `/pvdc help`
 - Displays the plugin help message
 
-#### **[Why was `/pvdc reload` removed?](../reload_cmd.md)**
+#### **[Why was `/pvdc reload` removed?](../faqs/reload_cmd.md)**
