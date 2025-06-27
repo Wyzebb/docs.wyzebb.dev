@@ -46,6 +46,7 @@ const config: Config = {
             {
                 docs: {
                     sidebarPath: './sidebars.ts',
+                    editUrl: 'https://github.com/wyzebb/docs.wyzebb.dev',
                 },
                 blog: false,
                 theme: {
