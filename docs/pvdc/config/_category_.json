@@ -4,5 +4,6 @@
     "link": {
         "type": "generated-index",
         "description": "PVDC Configuration options"
-    }
+    },
+    "collapsed": false
 }
