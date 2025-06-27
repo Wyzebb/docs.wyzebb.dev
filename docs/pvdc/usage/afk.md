@@ -5,7 +5,7 @@ The afkOnJoin option is a new feature
 :::
 
 ### How to Use
-- After an amount of time (defined in **[config.yml](./config/config.yml.md)**), a player will be considered AFK and their view distance will be restricted.
+- After an amount of time (defined in **[config.yml](../config/config.yml.md)**), a player will be considered AFK and their view distance will be restricted.
 - Restriction view distance and the time taken for a player considered to be AFK are configurable.
 - The bypass permission `pvdc.bypass-afk` can be used to stop a player's view distance being restricted when AFK.
 - Players in spectator mode can bypass AFK checks (configurable)
