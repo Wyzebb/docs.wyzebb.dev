@@ -12,5 +12,7 @@ This is where the plugin saves view distance data for players
 chunks: 12    # View distance changed by the player themselves
 chunksOthers: 7    # View distance changed by other players or the setonline command
 pingMode: false    # Whether ping mode is turned on for the player
-chunksPing: 0    # View distance last used by the player when ping mode was on
 ```
+
+:::note
+chunksPing was removed the update after it was added as it wasn't needed. If your player files have this value, it will not do any harm.

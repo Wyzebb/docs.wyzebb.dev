@@ -11,7 +11,7 @@ Some permissions have changed, so please check **[the migration guides](../migra
 ## Default Permissions
 
 All permissions are granted to ops by default, except:
-- `pvdc.dynamic-mode-bypass` is off for all so ops new to the plugin can test it.
+- `All three bypass permissions` are off for all so new users can test the plugin without any confusion.
 - `pvdc.get-self` is granted to all players by default
 
 

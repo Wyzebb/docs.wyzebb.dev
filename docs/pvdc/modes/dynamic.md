@@ -17,15 +17,15 @@ Dynamic mode is new to PVDC. Feedback would be greatly appreciated!
 
 ## Default config file for dynamic mode
 
-`dynamic-mode.yml`
-```yaml
+```yaml title="/PlayerViewDistanceController/dynamic-mode.yml"
+# Whether dynamic mode is activated on the server (ping mode enabled key does not work in the same way)
 enabled: false
 
 # Min and max view distances when using dynamic mode (must be within the global boundaries defined in config.yml)
 min: 2
 max: 32
 
-interval: 200  # (ticks)
+interval: 1200  # (ticks)
 
 # MSPT is checked every interval and view distance is optimised as follows:
 # All players have their view distance reduced by the chunks specified from their max allowed view distance
@@ -35,7 +35,7 @@ interval: 200  # (ticks)
 # {MSPT}: {CHUNKS}
 
 mspt:
-  55: 1
-  65: 3
-  75: 5
+  45: 1
+  50: 2
+  55: 4
 ```

@@ -11,6 +11,7 @@ The afkOnJoin option is a new feature
 - Players in spectator mode can bypass AFK checks (configurable)
 
 - `afkOnJoin` sets players to AFK immediately when they join until they first move.
+- `zero-chunks-afk` stops AFK players seeing ANYTHING. It will look like they are in a void world. This will not work in all server setups! Use with caution as it is not supported by the Paper API.
 
 ### Use Cases
 - This stop AFK players loading more chunk and entity data than they need and making the server lag.
@@ -34,4 +35,7 @@ afkChunks: 2
 
 # Whether players in spectator mode bypass AFK checks
 spectators-can-afk: true
+
+# Use with caution: this is not fully supported by the paper api and may cause visual glitches
+zero-chunks-afk: false
 ```

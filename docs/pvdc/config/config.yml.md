@@ -10,6 +10,9 @@ colour: "§e§l(!) §e"
 error-colour: "§c§l(!) §c"
 success-colour: "§a§l(!) §a"
 
+# Whether setting view distance also sets simulation distance
+sync-simulation-distance: true
+
 # Default view distance for anyone who joins the server (Must be between 2 and 32)
 default-distance: 32
 bedrock-default-distance: 32
@@ -40,6 +43,11 @@ afkChunks: 2
 
 # Whether players in spectator mode bypass AFK checks
 spectators-can-afk: true
+
+# Use with caution: this is not fully supported by the paper api and may cause visual glitches
+zero-chunks-afk: false
+
+recalculate-vd-on-world-change: true
 
 update-checker-enabled: true
 ```
