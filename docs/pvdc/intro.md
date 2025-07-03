@@ -26,5 +26,5 @@ sidebar_position: 1
 - **Bedrock support**: Players connecting via GeyserMC are fully supported and **[bedrock players can have custom default values](../pvdc/config/config.yml.md)**.
 - **Very lightweight**: The plugin is very light and can even greatly improve performance as the server may have to send less chunk data to players! Entities, blocks and fluids outside view distance are also not ticked, improving performance (see **[simulation distance info](./faqs/sim_distance.md)**).
 - **Multi-language support**: All messages are customisable and you can even add your own languages. **[Learn about this system here](../pvdc/config/lang.md)**.
-- **PlaceHolderAPI support**: The plugin contains an internal expansion with **[some useful placeholders](../pvdc/hooks/placeholderAPI.md)**.
+- **PlaceHolderAPI support**: The plugin contains an internal expansion with **[some useful placeholders](../pvdc/integrations/placeholderAPI.md)**.
 - **Console support**: Most commands can be executed from the console.

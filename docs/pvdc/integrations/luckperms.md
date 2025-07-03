@@ -11,6 +11,6 @@ PVDC hooks into LuckPerms for permissions. It is not required but extends the fu
 
 ### World Context
 - PVDC now takes LuckPerms world context into account when calculating view distance. View distances for specific worlds will always be preferred over general nodes.
-- You can enable/ disable VD recalculation on world change by changing `recalculate-vd-on-world-change` in **[config.yml](../pvdc/config/config.yml.md)**.
+- You can enable/ disable VD recalculation on world change by changing `recalculate-vd-on-world-change` in **[config.yml](../config/config.yml.md)**.
 
 Learn about available permission nodes **[here](../usage/permissions.md)**!
