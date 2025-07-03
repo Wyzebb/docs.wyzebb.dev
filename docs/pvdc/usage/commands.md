@@ -15,7 +15,7 @@ Some commands now support offline players and autocomplete reflects this!
 ## Commands
 #### - `/pvdc set <chunks> [player]`
 - Sets the maximum view distance of yourself or another player (online or offline!)
-- You can do `/pvdc <chunks> [player]` as a shortcut
+- You can do `/pvdc <chunks>` as a shortcut for yourself
 
 #### - `/pvdc get [player]`
 - Get your own or another player's max view distance (online or offline!)
