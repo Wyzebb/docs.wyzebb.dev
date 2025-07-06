@@ -163,6 +163,19 @@ const config: Config = {
             theme: prismThemes.github,
             darkTheme: prismThemes.dracula,
         },
+        algolia: {
+            appId: "VNZKM6N07M",
+            apiKey: "971127e0ed6a4325da9ae8b49dc4ca7a",
+            indexName: "Wyzebb's Plugins Docs",
+            contextualSearch: false,
+            replaceSearchResultPathname: {
+                from: "/docs/", // or as RegExp: /\/docs\//
+                to: "/",
+            },
+
+            searchPagePath: 'search',
+            insights: false,
+        }
     } satisfies Preset.ThemeConfig,
 };
 
