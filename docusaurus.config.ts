@@ -52,6 +52,18 @@ const config: Config = {
                 theme: {
                     customCss: './src/css/custom.css',
                 },
+                sitemap: {
+                    lastmod: 'date',
+                    changefreq: 'weekly',
+                    priority: 0.5,
+                    ignorePatterns: ['/tags/**'],
+                    filename: 'sitemap.xml',
+                    createSitemapItems: async (params) => {
+                        const { defaultCreateSitemapItems, ...rest } = params;
+                        const items = await defaultCreateSitemapItems(rest);
+                        return items.filter((item) => !item.url.includes('/page/'));
+                    },
+                },
             } satisfies Preset.Options,
         ],
     ],
@@ -78,10 +90,9 @@ const config: Config = {
                     label: 'PVDC',
                 },
                 {
-                    type: 'docSidebar',
-                    sidebarId: 'pvdcchangelogSidebar',
-                    position: 'left',
+                    href: 'https://modrinth.com/plugin/pvdc/changelog',
                     label: 'Changelog',
+                    position: 'left',
                 },
                 {
                     href: 'https://github.com/wyzebb',
