@@ -13,7 +13,7 @@ Ping mode is new to PVDC. Feedback would be greatly appreciated!
 ## When can it be used?
 
 - Ping mode can be used with or without **[dynamic mode](../modes/dynamic.md)**.
-- When used with dynamic mode, ping mode gets its maximum from the maximum allowed from dynamic mode. For more on priority, see **[priority](../usage/priority.md)**.
+- When used with dynamic mode, ping mode gets its maximum from the maximum allowed from dynamic mode. For more on priority, see **[priority](../getting-started/priority.md)**.
 
 ## Default config file
 
