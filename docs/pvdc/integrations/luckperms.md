@@ -6,6 +6,8 @@ sidebar_position: 1
 
 PVDC hooks into LuckPerms for permissions. It is not required but extends the functionality and is recommended!
 
+For offline players, their max VD not including context-specific nodes will be used.
+
 ### Node Changes
 - PVDC detects LuckPerms node changes and will recalculate view distance for potentially affected players when a `pvdc` node is changed, added, removed or a user is promoted or demoted.
 
