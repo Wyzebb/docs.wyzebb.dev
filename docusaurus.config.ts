@@ -168,11 +168,6 @@ const config: Config = {
             apiKey: "971127e0ed6a4325da9ae8b49dc4ca7a",
             indexName: "Wyzebb Plugins Docs",
             contextualSearch: false,
-            replaceSearchResultPathname: {
-                from: "/docs/", // or as RegExp: /\/docs\//
-                to: "/",
-            },
-
             searchPagePath: 'search',
             insights: false,
         }
