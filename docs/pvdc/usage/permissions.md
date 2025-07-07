@@ -4,10 +4,6 @@ sidebar_position: 4
 
 # Permissions
 
-:::warning[Version permission changes]
-Some permissions have changed, so please check **[the migration guides](../migrating/_category_.json)** for nodes you should change
-:::
-
 ## Default Permissions
 
 All permissions are granted to ops by default, except:
