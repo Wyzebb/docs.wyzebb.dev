@@ -14,6 +14,8 @@
 
 ## Default en_US
 ```yaml title="/PlayerViewDistanceController/lang/en_US.yml"
+# To prevent a specific message from being sent, set it to "none"
+
 messages:
   join: "Your maximum view distance is currently set to {chunks} chunks"
 
