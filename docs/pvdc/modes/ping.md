@@ -20,7 +20,7 @@ Ping mode is new to PVDC. Feedback would be greatly appreciated!
 ```yaml title="/PlayerViewDistanceController/ping-mode.yml"
 enabled: false
 
-# Min and max view distances when using ping optimiser (must be within the global boundaries defined in config.yml)
+# Min and max values ping mode will set a player's view distance to (must be within the boundaries in config.yml)
 min: 2
 max: 32
 
